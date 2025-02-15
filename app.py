@@ -131,11 +131,13 @@ demo = gr.ChatInterface(
     
     """,
     examples=[["Present yourself."],
+        ["Were can I find your resume?"],
         ["Tell me about your experience."],
         ["What projects have you worked on?"],
         ["What are your technical skills?"],
         ["Do you have any certifications?"],
-        ["Where can I see your portfolio?"]
+        ["Where can I see your portfolio?"],
+        ["How can I contact you?"]
     ],
     theme=gr.themes.Soft()
 )
