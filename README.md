@@ -1,4 +1,4 @@
-# Ali_chat
+# Ali-chat
 
 This repository contains a chatbot that utilizes the Gemini API and Retrieval-Augmented Generation (RAG) to answer questions about me based on my resume.
 ## Features
@@ -9,18 +9,18 @@ This repository contains a chatbot that utilizes the Gemini API and Retrieval-Au
 
 ## Repository Structure
 ```
+├── README.md              # Project documentation
 ├── app.py                  # Main application file for running the chatbot
-├── requirements.txt        # List of dependencies
 ├── doc_texts.npy          # Processed document embeddings
 ├── faiss_index.bin        # FAISS index for document retrieval
 ├── generate_index.py      # Script to process documents and generate FAISS index
-├── README.md              # Project documentation
+├── requirements.txt        # List of dependencies
 ```
 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sidmodz/chatbot-resume.git
+   git clone https://github.com/sidmodz/Ali-chat.git
    cd chatbot-resume
    ```
 2. Install dependencies:
